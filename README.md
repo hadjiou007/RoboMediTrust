@@ -42,8 +42,8 @@ Achieves **96.7% accuracy** on heart disease with strong privacy (ε=1.2).
 📂 Data
 Datasets can be downloaded from:
 
-UCI Heart Disease
-Breast Cancer 
+UCI Heart Disease : https://archive.ics.uci.edu/dataset/45/heart+disease
+Breast Cancer : https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ## 🚀 Quick Start
 
