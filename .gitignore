@@ -1,18 +1,85 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+# ========================
+# Python Specific
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+env/
+venv/
+virtualenv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache
+coverage.xml
+nosetests.xml
+htmlcov/
+.coverage
+.hypothesis/
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# ========================
+# Virtual Environments
+# ========================
+.env
+.venv
+env/
+venv/
+ENV/
+activate
+pipenv
+requirements.txt.bak
 
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+# ========================
+# IDE & Editors
+# ========================
+.idea/                  # JetBrains IDEs (PyCharm)
+.vscode/                # Visual Studio Code
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints
+*.ipynb*
+
+# ========================
+# Data & Model Files
+# ========================
+data/*.csv              # Ignore all CSV in data/ (except whitelisted below)
+!data/uci_heart_disease.csv  # BUT track this specific dataset
+results/
+models/*.h5
+models/*.pt
+models/saved_model/
+checkpoints/
+logs/
+
+# ========================
+# Build & Distribution
+# ========================
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ========================
+# Logs & Databases
+# ========================
+*.log
+*.sqlite3
