@@ -40,7 +40,7 @@ Achieves **96.7% accuracy** on heart disease with strong privacy (ε=1.2).
 git clone https://github.com/hadjiou007/roboMediTrust.git
 cd roboMediTrust
 pip install -r requirements.txt
-python experiments/train_diff_dna.py
+
 
 
 Notes
