@@ -43,7 +43,12 @@ Achieves **96.7% accuracy** on heart disease with strong privacy (ε=1.2).
 Datasets can be downloaded from:
 
 UCI Heart Disease : https://archive.ics.uci.edu/dataset/45/heart+disease
-Breast Cancer : https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+Breast Cancer : https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+chronic kidney disease :  https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease 
+Lung cancer : https://archive.ics.uci.edu/dataset/62/lung+cancer 
+alzheimers disease : https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+Hypertension risk prediction : https://www.kaggle.com/datasets/ankushpanday1/hypertension-risk-prediction-dataset  
+
 
 ## 🚀 Quick Start
 
