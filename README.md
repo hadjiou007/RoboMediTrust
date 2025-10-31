@@ -1,6 +1,7 @@
 # RoboMediTrust: A Privacy-Preserving Robotic Framework for Collaborative Disease Detection
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<img width="1021" height="913" alt="image" src="https://github.com/user-attachments/assets/4b0209ac-37ca-4db8-9750-44e02f3bdc23" />
 
 This repository contains the code for the **RoboMediTrust** framework, a novel approach for privacy-preserving, robot-mediated federated learning in healthcare.
 
@@ -8,7 +9,11 @@ This repository contains the code for the **RoboMediTrust** framework, a novel a
 
 RoboMediTrust integrates:
 - **On-Device Diff-DNA Privacy**: Structural noise injection via DNA-inspired permutations.
+  <img width="1024" height="846" alt="image" src="https://github.com/user-attachments/assets/804c3244-e393-419b-b0d3-6a5aac6bb0a7" />
+
 - **Personalized RNN (PRM)**: Bi-LSTM + GRU model for accurate diagnosis.
+  <img width="1045" height="583" alt="image" src="https://github.com/user-attachments/assets/fb7282f4-ec1a-44ad-929c-6fad96188d88" />
+
 - **Federated Learning**: Decentralized training across hospitals.
 - **Gaussian DP (DP-SGD)**: Model-level privacy.
 - **SMPC Simulation**: Secure data transmission.
@@ -33,6 +38,12 @@ Achieves **96.7% accuracy** on heart disease with strong privacy (ε=1.2).
 - `models/`: PRM model architecture.
 - `experiments/`: Training scripts for Table 14 and generalization.
 - `notebooks/`: Interactive demo.
+
+📂 Data
+Datasets can be downloaded from:
+
+UCI Heart Disease
+Breast Cancer 
 
 ## 🚀 Quick Start
 
